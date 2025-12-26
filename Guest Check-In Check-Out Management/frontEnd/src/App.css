@@ -1,0 +1,61 @@
+.container {
+  width: 500px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.guest-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.status.in {
+  background: green;
+}
+
+.status.out {
+  background: red;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.dialog {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 200px auto;
+  text-align: center;
+}
+
+.cancel {
+  margin-left: 10px;
+}
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.add-form button {
+  padding: 8px 12px;
+}
